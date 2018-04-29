@@ -21,7 +21,7 @@ clc, clear all, close all;
 
 O = 6;                          % number of bits of CQI
 B = 32;                         % number of rows of encoder matrix (32x11)
-repeatNumber = 100;           % number of repetition of test
+repeatNumber = 10000;           % number of repetition of test
 Q_CQI = 32;                     % number of bits on resource grid (by default)
 N_L = 1;                        % number of transmission layers (by default)
 SNR_Counter = 0;                % SNR increment counter
